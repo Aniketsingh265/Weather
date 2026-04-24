@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <p class="app-title">Live Weather</p>
+        <h1>Weather App</h1>
+        <div class="input-row">
+          <input type="text" id="city" placeholder="Enter city name..." />
+          <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div class="result-box" id="resultBox">
+          <div class="weather-icon" id="weatherIcon"></div>
+          <div class="city-name" id="cityName"></div>
+          <div class="weather-desc" id="weatherDesc"></div>
+          <div class="temp" id="tempVal"></div>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-label">Feels Like</div>
+              <div class="stat-val" id="feelsLike"></div>
+            </div>
+            <div class="stat">
+              <div class="stat-label">Humidity</div>
+              <div class="stat-val" id="humidity"></div>
+            </div>
+            <div class="stat">
+              <div class="stat-label">Wind</div>
+              <div class="stat-val" id="wind"></div>
+            </div>
+          </div>
+        </div>
+        <div id="errorMsg"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
