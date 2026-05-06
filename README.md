@@ -50,7 +50,7 @@ git clone https://github.com/your-username/your-repo-name.git
 This project uses a weather API. You may need to add your own API key in the JavaScript file:
 
 ```javascript
-const apiKey = "YOUR_API_KEY";
+const apiKey = "c5e0fd13cf944507d9222a3684929120";
 ```
 
 ## 📌 Future Improvements
